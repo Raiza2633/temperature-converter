@@ -4,7 +4,7 @@ let fahrenheit = document.getElementById("fahrenheit");
 function celToFar(){
     let output = ( parseFloat(celsius.value) * 9/5 ) +32;
     fahrenheit.value = parseFloat(output.toFixed(2));
-    // console.log(output);
+     console.log(output);
 
 }
 function farToCel(){
